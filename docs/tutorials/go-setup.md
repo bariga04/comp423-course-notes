@@ -83,7 +83,9 @@ go mod init <module name>
 ```  
 
 - In your project root folder create a new .go file. You can name it anything you want, for example: `hello423.go`  
-- Your file should contain the following:  
+
+!!!  note  
+    Your file should contain the following:  
 
 ```go  
 package main
@@ -97,7 +99,10 @@ func main() {
 
 ## Step 4. Run your program!  
 
-- Now that you have your .go file, you can run your program using the `run` subcommand! Type the following in your VSCode terminal:  
+- Now that you have your .go file, you can run your program using the `run` subcommand! 
+
+!!! note   
+    Type the following in your VSCode terminal:  
 
 ```go 
 go run .  
@@ -121,6 +126,7 @@ go build hello423.go
 
 ### Clean up dependencies:  
 
--  Use the `go mod tidy` subcommand to clean up any uneeded dependencies after running your program.  
+!!! warning  
+    Use the `go mod tidy` subcommand to clean up any uneeded dependencies after running your program.  
 
 **Congrats on making it to the end! You're officially a Go programmer!**
