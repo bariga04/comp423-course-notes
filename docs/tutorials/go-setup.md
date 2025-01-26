@@ -22,7 +22,10 @@ Follow the steps as listed and you'll be on your way to making a **Go** program 
 
 ## Step 1. Setting up your project
 
-- Open your command terminal and `cd` to your home directory. Then make a new directory (this should be your project root folder) and cd into it.
+- Open your command terminal and `cd` to your home directory. Then make a new directory and cd into it.  
+!!! note  
+    This should be your project root folder  
+
 
 ```bash  
 cd  
@@ -67,15 +70,15 @@ git remote add origin <link to repository>.git
   "postCreateCommand": "go mod tidy"  
 }  
 ```  
-
-- After you finish your `devontainer.json` file make sure to save it.  
+!!! warning  
+    After you finish your `devontainer.json` file make sure to save it.  
 - Then reopen the project in the container. VSCode should prompt you to do this but if not use `Ctrl+Shift+P` then type **"Dev Containers: Reopen in Container"** in the search bar then select the option it shows.  
 
 
 ## Step 3. Creating a Go "Hello Comp423" program  
 
 -  Before starting the next step, make sure you have an up to date version of Go installed using the **`go version`** subcommand   
-- Open up a new terminal in VSCode  
+- Open up a new terminal in VSCode. You will be using this terminal from now on.  
 - First use the `go mod` subcommand to create a go module. Name it the same name as your project if you'd like for convenience.    
 
 ```go  
@@ -121,8 +124,8 @@ go run .
 go build hello423.go  
 ./hello423  
 ```  
-
--  This should also print **`Hello COMP423`**  
+!!! note  
+    This should also print **`Hello COMP423`**  
 
 ### Clean up dependencies:  
 
